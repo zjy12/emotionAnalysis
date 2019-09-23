@@ -1,4 +1,4 @@
-From multiarch/ubuntu-debootstrap:armhf-bionic
+From multiarch/ubuntu-debootstrap:18.04
 ENV LANG C.UTF-8
 WORKDIR /home
 RUN apt-get update
